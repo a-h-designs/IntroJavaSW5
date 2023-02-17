@@ -1,4 +1,4 @@
-// this program will read user name (String) and password (int)
+// this program will read name (String) and age (int) location (string)
 
 import java.util.Scanner; // import Scanner class
 
@@ -8,21 +8,20 @@ public class LoginPage {
         Scanner reader = new Scanner(System.in);
 
         System.out.println("Enter you name : ");
-        // read username
+        // read name
         String name = reader.nextLine();
 
+        System.out.println("Enter you location : ");
+        // read location
+        String location = reader.nextLine();
 
         System.out.println("Enter your age : ");
-        // read password
+        // read age
         int age = reader.nextInt();
-
-        System.out.println("Enter you location : ");
-        // read username
-        String location = reader.nextLine();
 
         // print information
         System.out.println("Your name is " + name);
-        System.out.println("Your age is " + age);
         System.out.println("Your location is " + location);
+        System.out.println("Your age is " + age);
     }
 }
