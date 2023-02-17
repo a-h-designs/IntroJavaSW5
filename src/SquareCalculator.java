@@ -1,11 +1,18 @@
+import java.util.Scanner;
+
 //Workbook 1
 public class SquareCalculator {
     public static void main(String[] args) {
+
+        Scanner reader = new Scanner(System.in);
+
         System.out.println("--SQUARE CALCULATOR PROGRAM--");
-        // 1. Declare two variables, assign width: 13.5 and height: 25.3
-        double width = 13.5;
-        double height = 25.3;
-        // 2. Print variables width and height
+
+        System.out.println("Enter Width : ");
+        double width = reader.nextDouble(); //13.5
+        System.out.println("Enter Height : ");
+        double height = reader.nextDouble(); //25.3
+
         System.out.println("Width = " + width);
         System.out.println("Height = " + height);
         // 3. Create variable perimeter, calculate using formula 2 * w * h
