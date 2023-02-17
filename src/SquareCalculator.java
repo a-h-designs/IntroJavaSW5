@@ -1,7 +1,7 @@
 //Workbook 1
 public class SquareCalculator {
     public static void main(String[] args) {
-        System.out.println("--RECTANGLE CALCULATOR PROGRAM--");
+        System.out.println("--SQUARE CALCULATOR PROGRAM--");
         // 1. Declare two variables, assign width: 13.5 and height: 25.3
         double width = 13.5;
         double height = 25.3;
