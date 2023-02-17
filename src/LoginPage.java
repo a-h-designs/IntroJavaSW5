@@ -21,7 +21,7 @@ public class LoginPage {
 
         // print information
         System.out.println("Your name is " + name);
-        System.out.println("Your location is " + location);
         System.out.println("Your age is " + age);
+        System.out.println("Your location is " + location);
     }
 }
