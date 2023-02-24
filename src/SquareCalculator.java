@@ -1,4 +1,4 @@
-//Workbook 1, but now read the width and height from the user
+//Workbook 1
 public class SquareCalculator {
     public static void main(String[] args) {
 
