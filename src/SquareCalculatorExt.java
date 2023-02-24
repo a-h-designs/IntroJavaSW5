@@ -1,11 +1,17 @@
-//Workbook 1, but now read the width and height from the user
-public class SquareCalculator {
+import java.util.Scanner;
+
+//Workbook 1
+public class SquareCalculatorExt {
     public static void main(String[] args) {
 
-        System.out.println("--SQUARE CALCULATOR PROGRAM--");
+        Scanner reader = new Scanner(System.in);
 
-        double width = 13.5;
-        double height = 25.3;
+        System.out.println("--SQUARE CALCULATOR EXT PROGRAM--");
+
+        System.out.println("Enter Width : ");
+        double width = reader.nextDouble();
+        System.out.println("Enter Height : ");
+        double height = reader.nextDouble();
 
         System.out.println("Width = " + width);
         System.out.println("Height = " + height);
